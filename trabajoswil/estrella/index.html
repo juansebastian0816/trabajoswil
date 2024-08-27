@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonios</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .testimonial-section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 100px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-section h1 {
+      font-size: 36px;
+      color: #3c1953;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-section p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .ratings {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 30px;
+      flex: 2 1 0;
+    }
+
+    .ratings:nth-child(1) {
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-card:nth-child(2) {
+      margin: 4rem 0;
+    }
+
+    .testimonial-card:nth-child(3) {
+      margin-top: 2rem;
+    }
+
+    .rating {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+
+      &:nth-child(1) {
+        align-self: flex-start;
+      }
+
+      &:nth-child(2) {
+        align-self: center;
+      }
+
+      &:nth-child(3) {
+        align-self: flex-end;
+      }
+
+
+
+    }
+
+    .rating span {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .testimonials {
+      display: flex;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+
+    .testimonial-card {
+      background-color: #3c1953;
+      padding: 20px;
+      border-radius: 8px;
+      color: white;
+      align-self: center;
+
+    }
+
+    .testimonial-card:nth-child(1) {
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-card:nth-child(2) {
+      margin: 4rem 0;
+    }
+
+    .testimonial-card:nth-child(3) {
+      margin-top: 2rem;
+    }
+
+
+    .testimonial-card img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+
+    }
+
+    .testimonial-card h3 {
+      font-size: 18px;
+      margin: 0 0 10px 0;
+    }
+
+    .testimonial-card p {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .container__part-one {
+      display: flex;
+    }
+
+    .subtitle {
+      flex: 1.5 1.5 0;
+    }
+
+/* ------------------ */
+    footer {
+      background-color: #51256f;
+      color: #fff;
+      border-radius: 8px;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-section {
+      flex: 1;
+      padding: 10px;
+      min-width: 250px;
+    }
+
+    .footer-section h3 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+
+    .footer-section p,
+    .footer-section ul,
+    .footer-section li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer-section ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      background-color: #222;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    .footer-bottom p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="testimonial-section">
+
+    <div class="container__part-one">
+
+      <div class="subtitle">
+        <h1>10,000+ of our users love our products.</h1>
+        <p>We only provide great products combined with excellent customer service. See what our satisfied customers are
+          saying about our services.</p>
+      </div>
+
+
+      <div class="ratings">
+        <div class="rating">
+          <span>⭐⭐⭐⭐⭐</span>
+          <span>Rated 5 Stars in Reviews</span>
+        </div>
+        <div class="rating">
+          <span>⭐⭐⭐⭐⭐</span>
+          <span>Rated 5 Stars in Report Guru</span>
+        </div>
+        <div class="rating">
+          <span>⭐⭐⭐⭐⭐</span>
+          <span>Rated 5 Stars in BestTech</span>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <img src="images/image-colton.jpg" alt="Colton Smith">
+        <h3>Colton Smith</h3>
+        <p>Verified Buyer</p>
+        <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the
+          original order, but we also received it in time. Excellent!"</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/image-irene.jpg" alt="Irene Roberts">
+        <h3>Irene Roberts</h3>
+        <p>Verified Buyer</p>
+        <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of
+          the purchase and the speed of delivery."</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/image-anne.jpg" alt="Anne Wallace">
+        <h3>Anne Wallace</h3>
+        <p>Verified Buyer</p>
+        <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them
+          again and recommend them to everyone!"</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Contacto</h3>
+      <p>Email: contrerasvanegas0816@gmail.com</p>
+      <p>Teléfono: 321 - 412 - 4883</p>
+      <p>Dirección: Sena</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 juan sebastian contreras vanegas.</p>
+  </div>
+</footer>
+
+</html>

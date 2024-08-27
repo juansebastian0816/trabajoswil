@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            margin: 0;
+            background-color: #141414;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        .card {
+            background-color: hsl(0, 0%, 12%);
+            border-radius: 15px;
+            padding: 26px;
+            text-align: center;
+            color: #fff;
+            width: 380px;
+            margin: auto;
+        }
+
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card h1 {
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            color: hsl(75, 94%, 57%);
+            margin: 8px 0;
+        }
+
+        .conteiner {
+            margin-top: 2.5rem;
+        }
+
+        .imagen {
+            margin-top: 1.5rem;
+        }
+
+        .card p {
+            margin: 0;
+        }
+
+        .card a {
+            display: block;
+            background-color: hsl(0, 0%, 20%);
+            color: #fff;
+            text-decoration: none;
+            margin: 15px 10px;
+            padding: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: hsl(75, 94%, 57%);
+            color: black;
+        }
+
+        .container {
+            margin-top: 1.5rem;
+        }
+
+        footer {
+            background-color: #141414;
+            color: #fff;
+            border-radius: 8px;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            flex: 1;
+            padding: 10px;
+            min-width: 250px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .footer-section p,
+        .footer-section ul,
+        .footer-section li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-section ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-bottom {
+            background-color: #222;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .footer-bottom p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="imagen">
+            <img src="images/Jessica.jpg" alt="Profile Picture">
+        </div>
+        <h1>Jessica Randall</h1>
+        <h3>London, United Kingdom</h3>
+        <div class="conteiner">
+            <p>"Front-end developer and avid reader."</p>
+        </div>
+        <div class="container">
+            <strong><a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>
+                <a href="https://co.linkedin.com/" target="_blank">LinkedIn</a>
+                <a href="https://x.com/" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </strong>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Email: contrerasvanegas0816@gmail.com</p>
+            <p>Teléfono: 321 - 412 - 4883</p>
+            <p>Dirección: Sena</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 juan sebastian contreras vanegas.</p>
+    </div>
+</footer>
+
+</html>
